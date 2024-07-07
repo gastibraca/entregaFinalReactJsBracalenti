@@ -21,7 +21,7 @@ const NavBar = () => {
                     <a class="nav-link" href="#">SUMINISTROS</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" aria-disabled="true">ARMAS</a>
+                    <a class="nav-link" href="#">ARMAS</a>
                     </li>
                 </ul>
             </div>

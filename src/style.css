@@ -1,1 +1,8 @@
-@import "style.scss"
+.itemList{
+    background-color: blue;
+    display: flex;
+}
+
+nav{
+    background-color: aquamarine;
+}
