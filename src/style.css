@@ -1,8 +1,15 @@
 .itemList{
     background-color: blue;
     display: flex;
+    margin: 20px;
 }
 
 nav{
-    background-color: aquamarine;
+    background-color: greenyellow;
+}
+
+.cart{
+    float: right;
+    margin-right: 5rem;
+    padding: 20px;
 }
