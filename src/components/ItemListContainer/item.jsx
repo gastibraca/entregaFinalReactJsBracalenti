@@ -1,3 +1,5 @@
+import db from "../../db/db"
+
 const Item = ({producto}) =>{
     return(
         <div className="Item" key={producto.id}>

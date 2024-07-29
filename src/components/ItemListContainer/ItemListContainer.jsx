@@ -3,6 +3,7 @@ import React from 'react'
 import { obtenerProductos } from '../data.js'
 import { useState, useEffect } from 'react'
 import ItemList from './itemlist.jsx'
+import db from "../../db/db.js"
 
 const ItemListContainer = ({saludo}) => {
     const [productos, setProductos] = useState([]);

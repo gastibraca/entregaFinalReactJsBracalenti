@@ -4,8 +4,12 @@
     margin: 20px;
 }
 
+body{
+    background-color: #005466;
+}
+
 nav{
-    background-color: greenyellow;
+    background-color: #007B27;
 }
 
 .cart{
