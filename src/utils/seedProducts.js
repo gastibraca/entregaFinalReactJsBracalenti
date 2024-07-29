@@ -1,4 +1,4 @@
-import db from "../db/db";
+import db from "../db/db.js";
 import { addDoc, collection } from "firebase/firestore";
 
 
@@ -38,7 +38,6 @@ const seedproducts = () => {
     productos.map[({id, ...rest}) => {
         const productosRef = collection(db, "productos")
         addDoc(productosRef, rest)
-        console.log("subido")
     }];
     return 
 }
