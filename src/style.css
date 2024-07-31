@@ -1,6 +1,6 @@
 .itemList{
-    background-color: blue;
     display: flex;
+    flex-direction: row;
     margin: 20px;
 }
 
@@ -17,3 +17,4 @@ nav{
     margin-right: 5rem;
     padding: 20px;
 }
+

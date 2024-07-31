@@ -1,12 +1,29 @@
-.itemList{
+.itemListContainer{
+    width:100%;
     background-color: #006069;
     display: flex;
-    justify-content: space-around;
-    margin: 20px;
+    justify-content: space-between;
 }
 
-.item{
-    width: 12rem;
-    justify-items: center;
-    margin: .625rem;
+.itemList{
+    display:flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    background-color:#006B60;
+    border-color: #2F4858;
+}
+
+.Item{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: .9rem;
+    background-color: #008DB2;
+}
+
+.botCompra{
+    background-color: #b39a0f34;
+    color: black;
 }

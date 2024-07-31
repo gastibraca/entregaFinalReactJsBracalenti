@@ -1,5 +1,4 @@
 import Item from "./item.jsx"
-import db from "../../db/db.js";
 
 const ItemList = ({productos}) => {
     return (
